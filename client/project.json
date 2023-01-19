@@ -22,7 +22,7 @@
           "client/src/assets"
         ],
         "styles": [
-          "client/src/styles.css"
+          "client/src/styles.scss"
         ],
         "scripts": [],
         "webpackConfig": "@nrwl/react/plugins/webpack"
