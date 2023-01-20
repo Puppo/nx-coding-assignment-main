@@ -57,7 +57,7 @@ export function TicketDetail() {
             label="Assignee"
             onChange={assignUser}
           >
-            <MenuItem key={''} value={''}>-</MenuItem>
+            {!ticket?.assigneeId && <MenuItem key={''} value={''}>-</MenuItem>}
             {users.map(u => <MenuItem key={u.id} value={u.id} selected={u.id === ticket?.assigneeId}>{u.name}</MenuItem>)}
           </Select>
         </FormControl>
