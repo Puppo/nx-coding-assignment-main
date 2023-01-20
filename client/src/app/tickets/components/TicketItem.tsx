@@ -1,7 +1,7 @@
 import { Ticket } from "@acme/shared-models";
 import CheckIcon from '@mui/icons-material/Check';
 import { ListItem, ListItemButton, ListItemText } from "@mui/material";
-import { useUsers } from "../users/hooks/useUsers";
+import { useUsers } from "../../users/hooks/useUsers";
 
 
 interface TicketItemProps {
